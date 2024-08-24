@@ -14,3 +14,14 @@ Note: We recommend using mamba to install dependencies, which is faster than con
 ## 3. Prepare Dataset
 
 Download the [MEAD](https://wywu.github.io/projects/MEAD/MEAD.html) dataset. 
+
+## 4. precessing
+python script_preprocess/precessing_test.py --video_path /data/2023_stu/zhenxuan/datasets/RAVDESS_Celeb_ours/train_recon/ned_recon --save_path /data/2023_stu/zhenxuan/datasets/RAVDESS_Celeb_ours/train_recon/ned_recon
+
+## 5. Test 
+
+# python ref/demo_skip_change_30fps.py \
+#     --root data/MEAD \
+#     --root_wav data/MEAD/driving_audio \
+#     --save_path result/images \
+#     --ckpt ckpt/00000429-checkpoint.pth.tar \
