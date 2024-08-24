@@ -8,7 +8,7 @@ conda/mamba env create -f environment.yml
 Note: We recommend using mamba to install dependencies, which is faster than conda.
 
 ## 2. Download Pretrained Models
-
+https://drive.google.com/drive/folders/16DL_R9tw2VdOMdBU7rcB6d0CkhueocRz?usp=drive_link
 
 
 ## 3. Prepare Dataset
