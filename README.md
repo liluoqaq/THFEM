@@ -1,11 +1,11 @@
 # TFTEM - Official Implementation
 
-## 1. Installation
+## 1. Environment
+Please note that our preprocessing and training code should be executed locally, and requires the following environmental configuration:
 
-Python3.8, install the requirements via pip.
-  ```bash
-  pip install -r requirements.txt
-  ```  
+conda/mamba env create -f environment.yml
+
+Note: We recommend using mamba to install dependencies, which is faster than conda.
 
 ## 2. Download Pretrained Models
 
