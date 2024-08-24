@@ -16,7 +16,9 @@ Note: We recommend using mamba to install dependencies, which is faster than con
 Download the [MEAD](https://wywu.github.io/projects/MEAD/MEAD.html) dataset. 
 
 ## 4. precessing
-python script_preprocess/precessing_test.py --video_path /data/2023_stu/zhenxuan/datasets/RAVDESS_Celeb_ours/train_recon/ned_recon --save_path /data/2023_stu/zhenxuan/datasets/RAVDESS_Celeb_ours/train_recon/ned_recon
+python script_preprocess/precessing_test.py \
+--video_path data/MEAD \
+--save_path data/MEAD
 
 ## 5. Test 
 
