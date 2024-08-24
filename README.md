@@ -18,24 +18,15 @@ Download the [MEAD](https://wywu.github.io/projects/MEAD/MEAD.html) dataset.
 ## 4. precessing
 ```bash
 python script_preprocess/precessing_test.py \
---video_path data/MEAD \
---save_path data/MEAD
+  --video_path data/MEAD \
+  --save_path data/MEAD
 ```
 
-```bash
-  python scripts/finetune_stage1.py --exp_dir exp/stage1 \
-    --start_from_latent_avg \
-    --use_skip --use_att 1 \
-    --learning_rate 0.0001 \
-    --max_steps 50000 \
-    --val_interval 5000 \
-    --checkpoint_path pretrained_models/pretrain.pt \
-  ```
-
 ## 5. Test 
-
-# python ref/demo_skip_change_30fps.py \
-#     --root data/MEAD \
-#     --root_wav data/MEAD/driving_audio \
-#     --save_path result/images \
-#     --ckpt ckpt/00000429-checkpoint.pth.tar \
+```bash
+python ref/demo_skip_change_30fps.py \
+ --root data/MEAD \
+ --root_wav data/MEAD/driving_audio \
+ --save_path result/images \
+ --ckpt ckpt/00000429-checkpoint.pth.tar \
+```
